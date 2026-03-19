@@ -17,116 +17,115 @@
     {
       "slug": "index",
       "title": "Accueil",
-      "description": "Découvrez nos pains et pâtisseries artisanales, faits avec passion chaque jour.",
+      "description": "Découvrez nos pains artisanaux et viennoiseries faits maison. Visitez notre boulangerie et savourez la différence.",
       "blocks": [
         {
+          "type": "navbar",
+          "variant": "warm-playfair",
+          "variantReason": "Matching brand theme"
+        },
+        {
           "type": "hero",
-          "variant": "variant-1",
-          "variantReason": "Introduction captivante",
-          "kicker": "Bienvenue",
-          "title": "Pains et Pâtisseries Artisanales",
-          "subtitle": "Faits avec passion chaque jour dans notre boulangerie.",
-          "cta": {
-            "label": "Découvrir nos produits"
-          },
-          "visual": "image-hero.jpg"
+          "variant": "warm-playfair",
+          "variantReason": "Warm welcome",
+          "kicker": "Bienvenue chez",
+          "title": "Notre Boulangerie Artisanale",
+          "subtitle": "Savourez nos pains et viennoiseries faits maison chaque jour.",
+          "cta.label": "Découvrir",
+          "visual": "hero-boulangerie.jpg"
         },
         {
           "type": "features",
-          "variant": "variant-1",
-          "variantReason": "Présentation des atouts",
-          "kicker": "Nos Spécialités",
-          "title": "Nos Services Uniques",
-          "subtitle": "Nous vous offrons le meilleur de la tradition boulangère.",
+          "variant": "warm-playfair",
+          "variantReason": "Highlight bakery qualities",
+          "kicker": "Nos Qualités",
+          "title": "Ce qui nous rend uniques",
+          "subtitle": "Découvrez nos offres qui se cultivent chaque jour.",
           "items": [
             {
-              "title": "Pains Maison",
-              "text": "Des recettes artisanales avec des ingrédients locaux.",
-              "icon": "icon-pain"
+              "title": "Pains Artisanaux",
+              "text": "Pains fabriqués chaque matin.",
+              "icon": "bread-icon"
             },
             {
-              "title": "Pâtisseries Créatives",
-              "text": "Un plaisir visuel et gustatif.",
-              "icon": "icon-patisserie"
+              "title": "Ingrédients Locaux",
+              "text": "Seulement des ingrédients frais et locaux.",
+              "icon": "ingredients-icon"
             },
             {
-              "title": "Commandes Spéciales",
-              "text": "Personnalisation pour tous vos événements.",
-              "icon": "icon-commande"
+              "title": "Recettes Originales",
+              "text": "Des recettes créées par nos boulangers.",
+              "icon": "recipe-icon"
             },
             {
-              "title": "Livraison Locale",
-              "text": "Vos produits préférés livrés chez vous.",
-              "icon": "icon-livraison"
+              "title": "Viennoiseries",
+              "text": "Chaud et croustillant avec amour.",
+              "icon": "croissant-icon"
             }
           ]
         },
         {
           "type": "imagetext",
-          "variant": "variant-1",
-          "variantReason": "Mettre en avant un service phare",
-          "kicker": "Nouveau Service",
-          "title": "Ateliers de Boulangerie",
-          "subtitle": "Apprenez à fabriquer votre propre pain.",
-          "text": "Participez à nos ateliers et devenez maître de votre fournil.",
-          "cta": {
-            "label": "En savoir plus"
-          }
+          "variant": "warm-playfair",
+          "variantReason": "Illustrate story",
+          "kicker": "Notre Histoire",
+          "title": "Un Passion pour le Pain",
+          "subtitle": "Depuis 1995",
+          "text": "Depuis notre ouverture, nous créons des produits de boulangerie authentiques qui ravissent nos clients chaque jour.",
+          "cta.label": "En savoir plus"
         },
         {
           "type": "testimonials",
-          "variant": "variant-1",
-          "variantReason": "Preuve sociale",
+          "variant": "warm-playfair",
+          "variantReason": "Customer feedback",
           "kicker": "Témoignages",
           "title": "Ce que disent nos clients",
           "items": [
             {
-              "text": "Le meilleur pain de la ville, toujours frais et délicieux !",
-              "author": "Marie Dupont",
-              "role": "Client régulier",
-              "initial": "MD"
+              "text": "Le pain est toujours frais et délicieux. Le service est impeccable!",
+              "author": "Claire Martin",
+              "role": "Client fidèle",
+              "initial": "CM"
             },
             {
-              "text": "Des pâtisseries incroyables qui me rappellent mon enfance.",
-              "author": "Jean Martin",
+              "text": "Une expérience gustative unique à chaque visite!",
+              "author": "Jean Dupont",
               "role": "Gourmet",
-              "initial": "JM"
+              "initial": "JD"
             },
             {
-              "text": "Service exceptionnel et personnel toujours accueillant.",
-              "author": "Sophie Laroche",
-              "role": "Visiteur enthousiaste",
+              "text": "J'ai découvert leur croissant et je ne pourrais plus m'en passer!",
+              "author": "Sophie Legrand",
+              "role": "Amateur de viennoiseries",
               "initial": "SL"
             }
           ]
         },
         {
           "type": "cta",
-          "variant": "variant-1",
-          "variantReason": "Encourager l'action",
-          "title": "Venez goûter à nos créations",
-          "subtitle": "Visitez notre boulangerie aujourd'hui.",
-          "cta": {
-            "label": "Nous trouver"
-          }
+          "variant": "warm-playfair",
+          "variantReason": "Invite to visit",
+          "title": "Venez nous rendre visite!",
+          "subtitle": "Découvrez la différence par vous-même aujourd'hui.",
+          "cta.label": "Nos horaires"
         },
         {
           "type": "contact",
-          "variant": "variant-1",
-          "variantReason": "Faciliter le contact",
-          "kicker": "Contact",
+          "variant": "warm-playfair",
+          "variantReason": "Provide contact info",
+          "kicker": "Contactez-Nous",
           "title": "Restons en contact",
-          "subtitle": "Pour toute question ou commande spéciale, contactez-nous.",
-          "email": "contact@boulangerie.fr",
-          "phone": "+33 1 23 45 67 89",
-          "address": "123 Rue de la Boulangerie, Paris",
+          "subtitle": "Nous sommes ici pour vous servir.",
+          "email": "contact@boulangerie.com",
+          "phone": "0123456789",
+          "address": "123 Rue de la Boulangerie, 75001 Paris",
           "ctaLabel": "Envoyer un message",
-          "text": "N'hésitez pas à nous appeler ou à nous envoyer un email."
+          "text": "N'hésitez pas à nous contacter pour toute question."
         },
         {
           "type": "footer",
-          "variant": "variant-1",
-          "variantReason": "Conclusion informative",
+          "variant": "warm-playfair",
+          "variantReason": "Conclude website",
           "text": "© 2023 Boulangerie. Tous droits réservés."
         }
       ]
@@ -138,56 +137,88 @@
       "blocks": [
         {
           "type": "pageheader",
-          "variant": "variant-1",
-          "variantReason": "Présentation des services",
-          "kicker": "Services",
-          "title": "Notre Expertise",
-          "subtitle": "Découvrez tout ce que nous pouvons vous offrir."
+          "variant": "warm-playfair",
+          "variantReason": "Introduce services",
+          "kicker": "Nos Services",
+          "title": "Ce que nous offrons",
+          "subtitle": "Découvrez nos services spécialisés."
         },
         {
-          "type": "features",
-          "variant": "variant-1",
-          "variantReason": "Détails des services",
-          "kicker": "Notre Offre",
-          "title": "Des services adaptés à vos besoins",
-          "subtitle": "Nous mettons notre savoir-faire au service de vos envies.",
+          "type": "cards",
+          "variant": "warm-playfair",
+          "variantReason": "Detail services",
+          "kicker": "Expertise",
+          "title": "Nos Spécialités",
+          "subtitle": "Nous proposons divers services pour satisfaire vos besoins.",
           "items": [
             {
-              "title": "Pains Traditionnels",
-              "text": "Préparés avec expertise et passion.",
-              "icon": "icon-pain-traditionnel"
+              "title": "Commande personnalisée",
+              "text": "Commandez des gâteaux sur mesure.",
+              "icon": "custom-cake-icon"
             },
             {
-              "title": "Pâtisseries Personnalisées",
-              "text": "Votre imagination est la seule limite.",
-              "icon": "icon-patisserie-personnalisee"
+              "title": "Livraison",
+              "text": "Service de livraison rapide et fiable.",
+              "icon": "delivery-icon"
             },
             {
-              "title": "Cours de Boulangerie",
-              "text": "Devenez expert en un rien de temps.",
-              "icon": "icon-cours"
+              "title": "Événements",
+              "text": "Service traiteur pour vos événements spéciaux.",
+              "icon": "event-icon"
             },
             {
-              "title": "Service Traiteur",
-              "text": "Des solutions sur mesure pour vos événements.",
-              "icon": "icon-traiteur"
+              "title": "Ateliers",
+              "text": "Participez à nos ateliers de fabrication de pain.",
+              "icon": "workshop-icon"
             }
           ]
         },
         {
-          "type": "cta",
-          "variant": "variant-1",
-          "variantReason": "Inviter à l'action",
-          "title": "Envie d'essayer ?",
-          "subtitle": "Laissez-nous combler vos papilles.",
-          "cta": {
-            "label": "Contactez-nous"
-          }
+          "type": "contact",
+          "variant": "warm-playfair",
+          "variantReason": "Facilitate service inquiries",
+          "kicker": "Contactez-Nous",
+          "title": "Pour toute question de service",
+          "subtitle": "Nous sommes prêts à vous aider.",
+          "email": "services@boulangerie.com",
+          "phone": "0123456789",
+          "address": "123 Rue de la Boulangerie, 75001 Paris",
+          "ctaLabel": "Contacter",
+          "text": "Pour plus d'informations sur nos services."
+        },
+        {
+          "type": "faq",
+          "variant": "warm-playfair",
+          "variantReason": "Address common inquiries",
+          "kicker": "Questions Fréquemment Posées",
+          "title": "FAQ Services",
+          "items": [
+            {
+              "q": "Offrez-vous des options sans gluten?",
+              "a": "Oui, nous proposons une sélection sans gluten."
+            },
+            {
+              "q": "Quel est le délai pour une commande sur mesure?",
+              "a": "Veuillez commander au moins 48 heures à l'avance."
+            },
+            {
+              "q": "Faites-vous des réductions pour les grandes commandes?",
+              "a": "Contactez-nous pour des offres personnalisées."
+            },
+            {
+              "q": "Quels sont vos horaires de livraison?",
+              "a": "Nous livrons tous les jours de 8h à 17h."
+            },
+            {
+              "q": "Proposez-vous des ateliers pour les enfants?",
+              "a": "Oui, nous organisons des ateliers pour tous les âges."
+            }
+          ]
         },
         {
           "type": "footer",
-          "variant": "variant-1",
-          "variantReason": "Conclusion",
+          "variant": "warm-playfair",
+          "variantReason": "Conclude services page",
           "text": "© 2023 Boulangerie. Tous droits réservés."
         }
       ]
@@ -199,36 +230,65 @@
       "blocks": [
         {
           "type": "pageheader",
-          "variant": "variant-1",
-          "variantReason": "Présenter l'histoire",
-          "kicker": "À propos",
-          "title": "Notre Histoire",
-          "subtitle": "Une tradition de goût et de savoir-faire."
+          "variant": "warm-playfair",
+          "variantReason": "Introduce about page",
+          "kicker": "À Propos de Nous",
+          "title": "Notre Histoire et Nos Valeurs",
+          "subtitle": "Découvrez notre parcours et notre mission."
         },
         {
-          "type": "imagetext",
-          "variant": "variant-1",
-          "variantReason": "Engagement et valeurs",
-          "kicker": "Nos Valeurs",
-          "title": "Authenticité et Passion",
-          "subtitle": "Chaque jour une nouvelle aventure boulangère.",
-          "text": "Depuis des générations, nous perpétuons les traditions tout en innovant constamment.",
-          "cta": {
-            "label": "Rencontrez notre équipe"
-          }
+          "type": "richtext",
+          "variant": "warm-playfair",
+          "variantReason": "Detail bakery history",
+          "title": "Notre Parcours",
+          "subtitle": "Une tradition de saveurs",
+          "text": "<p>Depuis notre création en 1995, nous nous engageons à offrir à nos clients les meilleurs produits de boulangerie. Notre mission est de fournir des aliments de haute qualité avec un service client exceptionnel.</p>"
         },
         {
           "type": "team",
-          "variant": "variant-1",
-          "variantReason": "Présentation de l'équipe",
-          "kicker": "Notre Équipe",
-          "title": "Les artisans derrière le succès",
-          "subtitle": "Passionnés et dévoués, chaque membre apporte sa touche unique."
+          "variant": "warm-playfair",
+          "variantReason": "Introduce team",
+          "title": "Rencontrez Notre Équipe",
+          "subtitle": "La passion derrière nos produits",
+          "items": [
+            {
+              "name": "Pierre Lefèvre",
+              "role": "Maître Boulanger",
+              "image": "pierre.jpg"
+            },
+            {
+              "name": "Marie Dubois",
+              "role": "Chef Patissier",
+              "image": "marie.jpg"
+            },
+            {
+              "name": "David Morel",
+              "role": "Responsable des Ventes",
+              "image": "david.jpg"
+            }
+          ]
+        },
+        {
+          "type": "awards",
+          "variant": "warm-playfair",
+          "variantReason": "Showcase achievements",
+          "title": "Nos Récompenses",
+          "subtitle": "Distinctions pour notre savoir-faire",
+          "items": [
+            {
+              "name": "Prix de la Meilleure Baguette",
+              "year": "2018"
+            },
+            {
+              "name": "Trophée de l'Innovation Artisanale",
+              "year": "2020"
+            }
+          ]
         },
         {
           "type": "footer",
-          "variant": "variant-1",
-          "variantReason": "Conclusion",
+          "variant": "warm-playfair",
+          "variantReason": "Conclude about page",
           "text": "© 2023 Boulangerie. Tous droits réservés."
         }
       ]
@@ -240,58 +300,66 @@
       "blocks": [
         {
           "type": "pageheader",
-          "variant": "variant-1",
-          "variantReason": "Faciliter l'accès",
+          "variant": "warm-playfair",
+          "variantReason": "Introduce contact page",
           "kicker": "Contact",
-          "title": "Nous Contacter",
-          "subtitle": "Restez en contact avec nous."
+          "title": "Entrer en Contact",
+          "subtitle": "Nous sommes là pour vous."
         },
         {
           "type": "contact",
-          "variant": "variant-1",
-          "variantReason": "Information de contact",
-          "kicker": "Coordonnées",
-          "title": "Comment nous joindre",
-          "subtitle": "Nous sommes à votre écoute pour toute demande.",
-          "email": "contact@boulangerie.fr",
-          "phone": "+33 1 23 45 67 89",
-          "address": "123 Rue de la Boulangerie, Paris",
-          "ctaLabel": "Envoyer un message",
-          "text": "Contactez-nous pour plus d'informations ou des commandes spéciales."
+          "variant": "warm-playfair",
+          "variantReason": "Provide detailed contact info",
+          "kicker": "Nos Coordonnées",
+          "title": "Contactez notre équipe",
+          "subtitle": "Toujours à votre disposition.",
+          "email": "contact@boulangerie.com",
+          "phone": "0123456789",
+          "address": "123 Rue de la Boulangerie, 75001 Paris",
+          "ctaLabel": "Nous écrire",
+          "text": "N'hésitez pas à nous appeler ou à envoyer un e-mail pour toute question."
+        },
+        {
+          "type": "map",
+          "variant": "warm-playfair",
+          "variantReason": "Show location",
+          "title": "Notre Localisation",
+          "subtitle": "Venez nous rendre visite",
+          "text": "123 Rue de la Boulangerie, 75001 Paris"
         },
         {
           "type": "faq",
-          "variant": "variant-1",
-          "variantReason": "Répondre aux questions courantes",
-          "kicker": "Faq",
-          "title": "Questions Fréquemment Posées",
+          "variant": "warm-playfair",
+          "variantReason": "Answer common questions",
+          "kicker": "FAQ",
+          "title": "Vos Questions Fréquentes",
           "items": [
             {
-              "q": "Quels sont vos horaires d'ouverture ?",
-              "a": "Nous sommes ouverts de 7h à 19h, du lundi au samedi."
+              "q": "Quels sont vos horaires d'ouverture?",
+              "a": "Nous sommes ouverts du lundi au dimanche de 7h à 20h."
             },
             {
-              "q": "Proposez-vous un service de livraison ?",
-              "a": "Oui, nous livrons localement sur demande."
+              "q": "Où êtes-vous situés?",
+              "a": "123 Rue de la Boulangerie, 75001 Paris."
             },
             {
-              "q": "Puis-je commander en ligne ?",
-              "a": "Actuellement, veuillez nous appeler pour passer commande."
+              "q": "Offrez-vous des cartes-cadeaux?",
+              "a": "Oui, disponibles à l'achat en magasin."
             },
             {
-              "q": "Offrez-vous des options sans gluten ?",
-              "a": "Oui, nous avons une sélection de produits sans gluten."
+              "q": "Puis-je commander en ligne?",
+              "a": "Bientôt disponible, restez à l'écoute."
             },
             {
-              "q": "Faites-vous des commandes spéciales pour des événements ?",
-              "a": "Absolument, contactez-nous pour discuter de vos besoins."
+              "q": "Acceptez-vous les grandes commandes?",
+              "a": "Nous serons ravis de vous aider pour des événements spéciaux."
             }
           ]
         },
         {
           "type": "footer",
-          "variant": "variant-1",
-          "variantReason": "Conclure",
+          "variant": "warm-playfair",
+          "variantReason": "Conclude contact page",
           "text": "© 2023 Boulangerie. Tous droits réservés."
         }
       ]
